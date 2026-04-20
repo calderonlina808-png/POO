@@ -40,6 +40,8 @@ def mostrar_auto3(auto3):
 
 mostrar_auto3(mi_auto3)
 
+# Clase Vuelo: ejercicio 1
+
 class Vuelo:
     def __init__(self, numeroVuelo, origen, destino, capacidadPasajeros):
         self.numeroVuelo = numeroVuelo
@@ -79,6 +81,8 @@ def mostrar_vuelo3(vuelo3):
     print("=================\n")
 
 mostrar_vuelo3(mi_vuelo3)
+
+# Clase Horario: ejercicio 2
 
 class Horario:
     def __init__(self, jornada, numeroSalon, semestre, asignatura):
@@ -120,3 +124,89 @@ def mostrar_horario3(Horario3):
     print("=================\n")
 
 mostrar_horario3(mi_horario3)
+
+# Clase Ttelevisor: ejercicio 3
+
+class Televisor:
+    def __init__(self, marca, tamaño, smartTV, tieneTDT):
+        self.marca = marca
+        self.tamaño = tamaño
+        self.smartTV = smartTV
+        self.tieneTDT = tieneTDT
+
+mi_televisor1 = Televisor("LG", "50", "True", "True")
+def mostrar_televisor1(televisor1):
+    print("==== televisor 1 ====")
+    print(f"marca: {mi_televisor1.marca}")
+    print(f"tamaño: {mi_televisor1.tamaño}")
+    print(f"smartTV: {mi_televisor1.smartTV}")
+    print(f"tieneTDT: {mi_televisor1.tieneTDT}")
+    print("=================\n")
+
+mostrar_televisor1(mi_televisor1)
+
+mi_televisor2 = Televisor("TLC", "77", "True", "True")
+def mostrar_televisor2(televisor2):
+    print("==== televisor 2 ====")
+    print(f"marca: {mi_televisor2.marca}")
+    print(f"tamaño: {mi_televisor2.tamaño}")
+    print(f"smartTV: {mi_televisor2.smartTV}")
+    print(f"tieneTDT: {mi_televisor2.tieneTDT}")
+    print("=================\n")
+
+mostrar_televisor2(mi_televisor2)
+
+mi_televisor3 = Televisor("Panasonic", "22", "False", "False")
+def mostrar_televisor3(televisor3):
+    print("==== televisor 3 ====")
+    print(f"marca: {mi_televisor3.marca}")
+    print(f"tamaño: {mi_televisor3.tamaño}")
+    print(f"smartTV: {mi_televisor3.smartTV}")
+    print(f"tieneTDT: {mi_televisor3.tieneTDT}")
+    print("=================\n")
+
+mostrar_televisor3(mi_televisor3)
+
+# Clase Cuaderno: ejercicio 4 
+
+class Cuaderno:
+    def __init__(self, tamaño, cantidadHojas, tipoHoja, tipoGama):
+        self.tamaño = tamaño
+        self.cantidadHojas = cantidadHojas
+        self.tipoHoja = tipoHoja
+        self.tipoGama = tipoGama
+
+mi_cuaderno1 = Cuaderno("Grande", "100", "Rayado", "Bajo")
+def mostrar_cuaderno1(cuaderno1):
+    print("==== Cuaderno 1 ====")
+    print(f"tamaño: {mi_cuaderno1.tamaño}")
+    print(f"cantidadHoja: {mi_cuaderno1.cantidadHojas}")
+    print(f"tipoHoja: {mi_cuaderno1.tipoHoja}")
+    print(f"tipoGama: {mi_cuaderno1.tipoGama}")
+    print("=================\n")
+
+mostrar_cuaderno1(mi_cuaderno1)
+
+mi_cuaderno2 = Cuaderno("Pequeño", "50", "Cuadriculado", "Alta")
+def mostrar_cuaderno2(cuaderno2):
+    print("==== Cuaderno 2 ====")
+    print(f"tamaño: {mi_cuaderno2.tamaño}")
+    print(f"cantidadHoja: {mi_cuaderno2.cantidadHojas}")
+    print(f"tipoHoja: {mi_cuaderno2.tipoHoja}")
+    print(f"tipoGama: {mi_cuaderno2.tipoGama}")
+    print("=================\n")
+
+mostrar_cuaderno2(mi_cuaderno2)
+
+mi_cuaderno3 = Cuaderno("Mediano", "100", "Ferrocarril", "Media")
+def mostrar_cuaderno3(cuaderno3):
+    print("==== Cuaderno 3 ====")
+    print(f"tamaño: {mi_cuaderno3.tamaño}")
+    print(f"cantidadHoja: {mi_cuaderno3.cantidadHojas}")
+    print(f"tipoHoja: {mi_cuaderno3.tipoHoja}")
+    print(f"tipoGama: {mi_cuaderno3.tipoGama}")
+    print("=================\n")
+
+mostrar_cuaderno3(mi_cuaderno3)
+
+
