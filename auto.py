@@ -209,4 +209,48 @@ def mostrar_cuaderno3(cuaderno3):
 
 mostrar_cuaderno3(mi_cuaderno3)
 
+# Clase Videojuego: ejercicio 5 
+
+
+class Videojuego:
+    def __init__(self, titulo, plataforma, multijugador, tipoJuego):
+        self.titulo = titulo
+        self.plataforma = plataforma
+        self.multijugador = multijugador
+        self.tipoJuego = tipoJuego
+
+mi_videojuego1 = Videojuego("Call of Duti", "Consola", "No", "Accion")
+def mostrar_videojuego1(videojuego1):
+    print("=== Videojuego 1 ===")
+    print(f"titulo: {mi_videojuego1.titulo}")
+    print(f"plataforma: {mi_videojuego1.plataforma}")
+    print(f"multijugador: {mi_videojuego1.multijugador}")
+    print(f"tipoJuego: {mi_videojuego1.tipoJuego}")
+    print("=================\n")
+
+mostrar_videojuego1(mi_videojuego1)
+
+mi_videojuego2 = Videojuego("Super Mario", "PC", "No", "Accion")
+def mostrar_videojuego2(videojuego2):
+    print("=== Videojuego 2 ===")
+    print(f"titulo: {mi_videojuego2.titulo}")
+    print(f"plataforma: {mi_videojuego2.plataforma}")
+    print(f"multijugador: {mi_videojuego2.multijugador}")
+    print(f"tipoJuego: {mi_videojuego2.tipoJuego}")
+    print("=================\n")
+
+mostrar_videojuego2(mi_videojuego2)
+
+mi_videojuego3 = Videojuego("Shadow Gambit", "PS5", "Si", "Estrategia")
+def mostrar_videojuego3(videojuego3):
+    print("=== Videojuego 3 ===")
+    print(f"titulo: {mi_videojuego3.titulo}")
+    print(f"plataforma: {mi_videojuego3.plataforma}")
+    print(f"multijugador: {mi_videojuego3.multijugador}")
+    print(f"tipoJuego: {mi_videojuego3.tipoJuego}")
+    print("=================\n")
+
+mostrar_videojuego3(mi_videojuego3)
+
+
 
